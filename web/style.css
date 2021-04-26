@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    
+}
+body{
+    font-family: Arial,Helvetica,sans-serief;
+    
+    max-width: 1440px;
+    margin: 0 0;
+    background-image: url(background.jpg);
+     background-size: cover;
+     
+}
+nav {
+    margin: 0 0  0 0 ;
+    width: 100vw;
+    height: 100px;
+    background: black;
+    padding: 0 0;
+     display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    color: white;
+    font-weight: bold;
+}
+
+nav>.logo {
+    color: #00ff00;
+    
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    color: white;
+}
+
+
+
+.Hero {
+    float:inherit;
+    margin: 0,0,0,0;
+    padding-top: 10px;
+    height: 100vh;
+    max-height: 900px;
+    background-image: url(bg6.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero h1 {
+    color: rgb(233, 233, 233);
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    width: 25ch;
+    
+}
+
+
+@media screen and (max-width:808px) {
+    .Hero h1 {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.75rem;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .left {
+        flex: 0;
+    }
+    footer {
+        flex-direction: column;
+    }
+}
+ul,
+ol {
+    list-style: none;
+}
+.row{
+
+
+    padding: 1rem;
+    border-radius: 70px 80px;
+    width: 100%;
+    max-width: 1430px;
+    height: 100%;
+    max-height: 1400px;
+
+    font-size: large;
+    
+}
+
+.input-box{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #fff;
+}
+
+.r12 {
+   color: aqua;
+  
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 1;
+    width: 20ch;
+}
+
+.r20 {
+   color: black;
+  
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1;
+    width: 20ch;
+}
+
+.r22 {
+    color: #0000ff;
+  
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1;
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+     
+}
+
+
+
+h4{
+    color: #ffff00;
+}
+.panel-body{
+
+   
+}
+.col-sm-4{
+    
+    backface-visibility: hidden;
+
+}
+.col-sm-8{
+    
+    border: 3px solid black;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    
+}
+.r13{
+     padding: 1rem;
+    border-radius: 70px 80px;
+    width: 100%;
+    max-width: 1430px;
+    height: 100%;
+    max-height: 1400px;
+   background-image: url('https://images.unsplash.com/photo-1615708927395-8a395e039156?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDg2fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    font-size: large;
+    background-color: #9b5de5;
+    border: 2px solid black;
+}
+.r14{
+     padding: 1rem;
+    border-radius: 70px 80px;
+    width: 100%;
+    max-width: 1430px;
+    height: 100%;
+    max-height: 1400px;
+   background-image: url('https://images.unsplash.com/photo-1617209637559-e5189a9c234c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80');
+    font-size: large;
+    background-color: #f15bb5;
+    border: 2px solid black;
+}
+.r15{
+     padding: 1rem;
+    border-radius: 70px 80px;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 700px;
+ background-image: url('https://images.unsplash.com/photo-1616709268128-cf847356c69f?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzOHw2c01WalRMU2tlUXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    font-size: large;
+    background-color: #fee440;
+    border: 2px solid black;
+}
+.r15 h2{
+    color: black;
+}
+.r15 p{
+    color: #ff6d00;
+}
+
+.r13 h2{
+    color: #ffffff;
+}
+.r13 p{
+    color: #ff6d00;
+}
+.r14 h2{
+    color: #ffffff;
+}
+.r14 p{
+    color: #ff6d00;
+}
+
+
+
+
+.Hero1 {
+    float:inherit;
+    margin: 0 0 0 0;
+    padding-top: 10px;
+    height: 100vh;
+    max-height: 900px;
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero1 h1 {
+    color: rgb(233, 233, 233);
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    width: 25ch;
+}
